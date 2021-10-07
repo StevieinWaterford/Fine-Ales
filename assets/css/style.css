@@ -1,3 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Raleway&display=swap');
 
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Hero -Image */
+
+.hero-image{
+    height: 100vh;
+    background: url('../images/bottles-of-beer.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Jumbotron */
+
+
+.jumbotron h1 {
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 30px;
+ 
+}
+
+.jumbotron p {
+
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.jumbotron small{
+    color: whitesmoke;
+    font-weight: bold;
+}
 

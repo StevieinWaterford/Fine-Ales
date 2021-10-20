@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
-/* Hero -Image */
+/* Hero-Image */
 
 .hero-image{
     height: 100vh;
@@ -36,8 +36,72 @@ body {
 
 }
 
-.jumbotron small{
+.jumbotron small {
     color: whitesmoke;
     font-weight: bold;
 }
+
+/* Shopping cart images */
+
+h1 {
+    text-align: center; 
+}
+
+
+
+/* Footer section */
+
+.sitefooter {
+    padding: 1.5em 0;
+    font-size: 12px;
+    color: #868e96
+}
+
+
+.sitefooter a {
+    color: blue;
+    border-bottom: 1px solid transparent
+}
+
+.sitefooter a:hover {
+    color: #fff;
+    border-bottom: 1px solid rgba(255 , 255, 255 , 0.2);
+
+}
+
+.sitefooter h2  {
+    font-size: 22px;
+    margin-bottom: 28px;
+    letter-spacing: 0.5em;
+    color: #fff;
+}
+
+.sitefooter .footer-link li {
+    line-height: 3.5;
+    margin-bottom: 15px;
+    font-size: 200%;
+    padding: 10px;
+
+}
+
+  /*  
+ .footer .socialmedia a {
+    line-height: 0;
+    border-radius: 0;
+    margin: 0 5px  5px  0;
+    border: 1px solid rgba(255 , 255, 255 , 0.2);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+
+} 
+
+.footer-socialmedia.fa {
+    font-size: 300px;
+}
+*/
+
+
+
 

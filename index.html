@@ -15,19 +15,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <ion-icon src="/path/to/external/file.svg"></ion-icon>
 
 
     <title>The Drunken Monkey</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
+
+    <nav class="navbar sticky-top  navbar-dark navbar-expand-sm bg-dark">
         <a href="/" class="navbar-brand">
             Drunken Monkey</a>
         <ul class="navbar-nav mr-auto">
-            <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" href="/">About</a></li>
-            <li class="nav-item mr-2"><a class="nav-link" hresf="/">Share</a></li>
+            <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="/">Cart<i class="fas fa-shopping-cart"></i></a></li>
+            <li class="nav-item mr-2"><a class="nav-link" href="merchandise.html">Merchandise</a></li>
         </ul>
 
         <form class="d-flex">
@@ -35,15 +37,13 @@
             <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
 
-
-
     </nav>
 
 
 
 
     <div class="hero-image">
-        <div class="call-out  container mt-4 ">
+        <div class="call-out container mt-4 ">
             <div class="row">
                 <div class="col-12">
                     <section class="callout jumbotron text-center bg-tranparent">
@@ -110,66 +110,54 @@
 
 
     <!-- Features -->
-    <div class=features>
-        <div class="row">
-            <div class="column 12">
-                <section class="features">
-                    <h2>Features:</h2>
-                    <div class="feature">
-                        <h3>Feature 1</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore e dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi
-                            ut aliqui ex ea commodo consequat.</p>
+
+    <footer class="sitefooter bg-dark">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md-4 mb-5">
+                    <h2> Who we Are </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Reprehenderit, quia? Odit quisquam maiores magni ea similique,
+                        blanditiis tempore nihil inventore voluptatibus quasi, ad natus nemo,
+                        corporis earum hic praesentium. Molestias.
+                    </p>
+                    <p><a href="/">Click to learn more</a></p>
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    <h2>Contact &amp; Address</h2>
+                    <ul class="list-unstyled footerlink">
+                        <li class="d-flex">
+                            <span class="me-3">Address :</span><span class="text-black">61 Broad-street, Waterford X97
+                                YE3D</span>
+                        </li>
+                        <li class="d-flex">
+                            <span class="me-3">Telephone :</span><span class="text-black">00353 5156789</span>
+                        </li>
+                        <li class="d-flex">
+                            <span class="me-3">E-mail :</span><span class="text-black">thedrunkenmonkey@gmail.com</span>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="col-md-4">
+                    <h2>Social Media Links</h2>
+                    <div class="social-links">
+                        <ul class="list-unstyled footer-link d-flex footer-socialmedia">
+                            <li><a href="/"><span class="fa fa-facebook"></span></a></li>
+                            <li><a href="/"><span class="fa fa-twitter"></span></a></li>
+                            <li><a href="/"><span class="fa fa-instagram"></span></a></li>
+                            <li><a href="/"><span class="fa fa-youtube"></span></a></li>
+                        </ul>
                     </div>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="feaures2">
-        <div class="row">
-            <div class="column">
-                <div class="feature">
-                    <h3>Feature 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip
-                        ex ea commodo consequat.</p>
                 </div>
+
             </div>
         </div>
-    </div>
 
-    <div class="features4">
+    </footer>
 
-        <div class="row">
-            <div class="column">
-                <div class="feature">
-                    <h3>Feature 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut
-                        aliquip
-                        ex ea commodo consequat.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    </section>
-    <!--features -->
-
-
-
-
-    </header>
 
 
 
@@ -177,11 +165,12 @@
 
 
     <script src="assets/js/script.js"></script>
-
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
     <!-- Font Awesome Icons script -->
 
 
 </body>
-</article>
+
+
 
 </html>

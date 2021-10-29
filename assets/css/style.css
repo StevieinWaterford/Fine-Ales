@@ -1,90 +1,123 @@
-
 body {
-    font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
+  margin: 5px;
+  width: auto;
 }
 
-/* Hero-Image */
+.container-fluid {
+  max-width: fit-content;
+  margin: auto;
+  border: #fff solid 3px;
+  background: #fff;
+  padding: 5px;
+}
 
-.hero-image{
-    height: 100vh;
-    background: url('../images/bottles-of-beer.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+.main-img img,
+.imgs img {
+  width: 100%;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 4px;
+}
+
+/* Modal-Image */
+/* 
+.modal {
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.full-image {
+  position: absolute;
+  height: 70%;
+  top: 50%;
+  left: 50%;
+}
+ */
+/*  
+
+
+
+
+/* Hero-Image */
+.hero-image {
+  height: 100vh;
+  background: url("../images/bottles-of-beer.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 /* Jumbotron */
 
-
 .jumbotron h1 {
-    color: whitesmoke;
-    font-weight: bold;
-    margin-bottom: 30px;
- 
+  color: whitesmoke;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
 .jumbotron p {
-
-    color: whitesmoke;
-    font-weight: bold;
-    margin-bottom: 30px;
-
+  color: whitesmoke;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
 .jumbotron small {
-    color: whitesmoke;
-    font-weight: bold;
+  color: whitesmoke;
+  font-weight: bold;
 }
 
 /* Shopping cart images */
 
 h1 {
-    text-align: center; 
+  text-align: center;
 }
-
-
 
 /* Footer section */
 
 .sitefooter {
-    padding: 1.5em 0;
-    font-size: 12px;
-    color: #868e96
+  padding: 1.5em 0;
+  font-size: 12px;
+  color: #868e96;
 }
 
-
 .sitefooter a {
-    color: blue;
-    border-bottom: 1px solid transparent
+  color: blue;
+  border-bottom: 1px solid transparent;
 }
 
 .sitefooter a:hover {
-    color: #fff;
-    border-bottom: 1px solid rgba(255 , 255, 255 , 0.2);
-
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.sitefooter h2  {
-    font-size: 22px;
-    margin-bottom: 28px;
-    letter-spacing: 0.5em;
-    color: #fff;
+.sitefooter h2 {
+  font-size: 22px;
+  margin-bottom: 28px;
+  letter-spacing: 0.5em;
+  color: #fff;
 }
 
 .sitefooter .footer-link li {
-    line-height: 3.5;
-    margin-bottom: 15px;
-    font-size: 200%;
-    padding: 10px;
-
+  line-height: 3.5;
+  margin-bottom: 15px;
+  font-size: 200%;
+  padding: 10px;
 }
 
-  /*  
+/*  
  .footer .socialmedia a {
     line-height: 0;
     border-radius: 0;
@@ -101,7 +134,3 @@ h1 {
     font-size: 300px;
 }
 */
-
-
-
-

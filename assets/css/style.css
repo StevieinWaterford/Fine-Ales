@@ -7,9 +7,9 @@ body {
 .container-fluid {
   max-width: fit-content;
   margin: auto;
-  border: #fff solid 3px;
+  /*border: #fff solid 3px;*/
   background: #fff;
-  padding: 5px;
+  padding: 0px;
 }
 
 .main-img img,
